@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026 Ballot Measures Map</title>
+<meta name="description" content="Interactive map of 2026 statewide ballot measures: results by topic, and how conservative or liberal positions ran relative to Governor and U.S. Senate candidates.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow" id="asof">2026 general election</p>
+    <h1>Ballot measures vs. the top of the ticket</h1>
+    <p class="lede">Hover or tap a state to see the measures on its ballot, whether they passed, and the share voting yes.
+      Switch to the <strong>gap</strong> view to see how far conservative or liberal positions ran ahead of — or behind — the same party’s Governor or U.S. Senate candidate.</p>
+  </header>
+
+  <section class="controls card" aria-label="Map controls">
+    <div class="control-row">
+      <fieldset class="seg" id="ctl-view">
+        <legend>View</legend>
+        <div class="seg-track">
+          <label><input type="radio" name="view" value="measures" checked><span>Ballot measures</span></label>
+          <label><input type="radio" name="view" value="gap"><span>Measure vs. candidate gap</span></label>
+        </div>
+      </fieldset>
+      <label class="select-ctl">
+        <span class="ctl-label">Topic</span>
+        <select id="ctl-topic" name="topic"></select>
+      </label>
+    </div>
+
+    <div class="control-row gap-only">
+      <fieldset class="seg pos" id="ctl-pos">
+        <legend>Position</legend>
+        <div class="seg-track">
+          <label class="cons"><input type="radio" name="pos" value="Conservative" checked><span>Conservative</span></label>
+          <label class="lib"><input type="radio" name="pos" value="Liberal"><span>Liberal</span></label>
+        </div>
+      </fieldset>
+      <fieldset class="seg" id="ctl-office">
+        <legend>Compare with</legend>
+        <div class="seg-track">
+          <label><input type="radio" name="office" value="Governor"><span>Governor</span></label>
+          <label><input type="radio" name="office" value="Senate"><span>U.S. Senate</span></label>
+          <label><input type="radio" name="office" value="Either" checked><span>Governor, else Senate</span></label>
+        </div>
+      </fieldset>
+      <fieldset class="seg" id="ctl-share">
+        <legend>Candidate share</legend>
+        <div class="seg-track">
+          <label><input type="radio" name="share" value="2p" checked><span>Two-party</span></label>
+          <label><input type="radio" name="share" value="raw"><span>Raw</span></label>
+        </div>
+      </fieldset>
+      <label class="check-ctl">
+        <input type="checkbox" id="ctl-noside" name="noside">
+        <span>Also count measures where this position was the <b>No</b> vote</span>
+      </label>
+    </div>
+  </section>
+
+  <section class="stats" id="stats" aria-live="polite"></section>
+
+  <section class="viz">
+    <div class="card map-card">
+      <div class="card-head">
+        <h2 id="map-title">Ballot measures</h2>
+        <p class="sub" id="map-sub"></p>
+      </div>
+      <div class="map-wrap" id="map-wrap">
+        <svg id="map" viewBox="0 0 975 610" role="group" aria-labelledby="map-title"></svg>
+        <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+      </div>
+      <div class="legend" id="legend" aria-hidden="false"></div>
+    </div>
+
+    <aside class="card rank-card" aria-labelledby="rank-title">
+      <div class="card-head">
+        <h2 id="rank-title">States</h2>
+        <p class="sub" id="rank-sub">Hover a row to find the state; click to pin it.</p>
+      </div>
+      <ol class="rank" id="rank"></ol>
+      <p class="empty-note" id="rank-empty" hidden></p>
+    </aside>
+
+    <section class="card detail" id="detail" hidden aria-live="polite">
+      <div class="card-head detail-head">
+        <h2 id="detail-title"></h2>
+        <button type="button" class="ghost-btn" id="detail-close">Unpin state</button>
+      </div>
+      <div id="detail-body"></div>
+    </section>
+  </section>
+
+
+  <section class="card table-card">
+    <div class="card-head">
+      <h2 id="table-title">Measures</h2>
+      <p class="sub" id="table-sub"></p>
+    </div>
+    <div class="table-scroll">
+      <table id="table"></table>
+    </div>
+  </section>
+
+  <section class="card methods" id="methods">
+    <div class="card-head"><h2>How the numbers are built</h2></div>
+    <div class="methods-grid">
+      <div>
+        <h3>Definitions</h3>
+        <dl>
+          <dt>% Yes</dt>
+          <dd>Yes ÷ (Yes + No) when vote counts are available, otherwise the reported percentage. Values marked ≈ are approximate; measures reported only as “Majority Yes” have no share.</dd>
+          <dt>Yes position</dt>
+          <dd>The workbook records which ideological side <em>won</em> each measure. Combined with the result, that gives the side a <b>Yes</b> vote took (e.g., a measure that failed with a “Liberal” win has a conservative Yes). Measures coded “Mixed” (bonds, institutional changes) appear on the measures map but not in ideological comparisons.</dd>
+          <dt>Gap</dt>
+          <dd>Vote share for the selected position minus the same-side party’s candidate share (Republican for conservative positions, Democratic for liberal ones), in percentage points. Positive = the position ran <b>ahead</b> of the candidate; negative = it ran <b>behind</b>. A state’s value is the unweighted mean across its measures.</dd>
+          <dt>Two-party share</dt>
+          <dd>Candidate share of the two-party vote, D ÷ (D + R). Ballot measures are two-way choices, so this is the closer comparison; “Raw” uses the reported share including minor candidates.</dd>
+        </dl>
+      </div>
+      <div>
+        <h3>Caveats</h3>
+        <ul class="caveats">
+          <li>Results are unofficial and incomplete — the workbook covers a subset of the measures on 2026 ballots.</li>
+          <li>Runner-up candidates are assumed to be from the other major party.</li>
+          <li>Alaska’s Governor race uses partial, first-round ranked-choice shares, which inflates its gaps.</li>
+          <li>South Carolina’s Senate shares are imputed from the reported margin.</li>
+          <li>Iowa Amendment 1 is cited in the workbook’s footnote (Passed ~56%) but has no data row; it is included and flagged.</li>
+        </ul>
+        <h3>Processing log</h3>
+        <ul class="log" id="log"></ul>
+        <h3>Download the data</h3>
+        <ul class="downloads">
+          <li><a href="ballot_analytic_data.xlsx">ballot_analytic_data.xlsx</a> — all tables + codebook</li>
+          <li><a href="measures_clean.csv">measures_clean.csv</a></li>
+          <li><a href="races_clean.csv">races_clean.csv</a></li>
+          <li><a href="measures_with_races.csv">measures_with_races.csv</a></li>
+          <li><a href="comparison_long.csv">comparison_long.csv</a></li>
+          <li><a href="state_summary.csv">state_summary.csv</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>Sources as cited in the workbook (Ballotpedia, state election offices, AP, news reports). State shapes: <a href="https://github.com/topojson/us-atlas">us-atlas</a>. Built with D3.</p>
+  </footer>
+</div>
+
+<script src="d3.v7.9.0.min.js"></script>
+<script src="topojson-client.v3.1.0.min.js"></script>
+<script src="us_states_topo.js"></script>
+<script src="ballot_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
