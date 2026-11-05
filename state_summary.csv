@@ -1,0 +1,65 @@
+state,abbr,office_selection,office_used,position,includes_no_side_positions,n_measures,candidate,candidate_share_2p,candidate_share_raw,mean_position_share,mean_gap_2p,mean_gap_raw,measures
+Alabama,AL,Governor,Governor,Conservative,False,2,Tommy Tuberville,52.0,52.0,60.55349922458312,8.55349922458312,8.55349922458312,Amendment 3; Amendment 4
+Alaska,AK,Governor,Governor,Conservative,False,2,Republican runner-up,37.17948717948718,29.0,58.8938728393898,21.714385659902618,29.8938728393898,Ballot Measure 2; Ballot Measure 3
+Arizona,AZ,Governor,Governor,Conservative,False,2,Republican runner-up,43.438453713123096,42.7,43.43466658941887,-0.003787123704231732,0.7346665894188611,Prop 142; Prop 144
+California,CA,Governor,Governor,Conservative,False,1,Republican runner-up,36.0,36.0,41.37483787289235,5.37483787289235,5.37483787289235,Prop 39
+California,CA,Governor,Governor,Liberal,False,4,Xavier Becerra,64.0,64.0,56.9621719855415,-7.037828014458496,-7.037828014458496,Prop 1; Prop 3; Prop 37; Prop 4
+Iowa,IA,Governor,Governor,Conservative,False,1,Republican runner-up,44.5,44.5,56.0,11.5,11.5,Amendment 1
+Nevada,NV,Governor,Governor,Conservative,False,1,Republican runner-up,46.242171189979125,44.3,62.44416197191111,16.201990781931983,18.14416197191111,Question 7
+Nevada,NV,Governor,Governor,Liberal,False,1,Aaron Ford,53.757828810020875,51.5,63.166313965307516,9.408485155286641,11.666313965307516,Question 6
+Ohio,OH,Governor,Governor,Conservative,False,1,Republican runner-up,45.91520165460185,44.4,65.33453095883445,19.419329304232598,20.93453095883445,Issue 3
+Alabama,AL,Governor,Governor,Conservative,True,2,Tommy Tuberville,52.0,52.0,60.55349922458312,8.55349922458312,8.55349922458312,Amendment 3; Amendment 4
+Alabama,AL,Governor,Governor,Liberal,True,2,Democratic runner-up,48.0,48.0,39.44650077541688,-8.55349922458312,-8.55349922458312,Amendment 3; Amendment 4
+Alaska,AK,Governor,Governor,Conservative,True,2,Republican runner-up,37.17948717948718,29.0,58.8938728393898,21.714385659902618,29.8938728393898,Ballot Measure 2; Ballot Measure 3
+Alaska,AK,Governor,Governor,Liberal,True,2,Kreiss-Tomkins,62.82051282051282,49.0,41.1061271606102,-21.714385659902618,-7.8938728393898,Ballot Measure 2; Ballot Measure 3
+Arizona,AZ,Governor,Governor,Conservative,True,2,Republican runner-up,43.438453713123096,42.7,43.43466658941887,-0.003787123704231732,0.7346665894188611,Prop 142; Prop 144
+Arizona,AZ,Governor,Governor,Liberal,True,2,Katie Hobbs,56.561546286876904,55.6,56.56533341058113,0.003787123704231732,0.9653334105811346,Prop 142; Prop 144
+California,CA,Governor,Governor,Conservative,True,5,Republican runner-up,36.0,36.0,42.70522998614527,6.705229986145267,6.705229986145267,Prop 1; Prop 3; Prop 37; Prop 39; Prop 4
+California,CA,Governor,Governor,Liberal,True,5,Xavier Becerra,64.0,64.0,57.29477001385474,-6.705229986145267,-6.705229986145267,Prop 1; Prop 3; Prop 37; Prop 39; Prop 4
+Iowa,IA,Governor,Governor,Conservative,True,1,Republican runner-up,44.5,44.5,56.0,11.5,11.5,Amendment 1
+Iowa,IA,Governor,Governor,Liberal,True,1,Rob Sand,55.5,55.5,44.0,-11.5,-11.5,Amendment 1
+Nevada,NV,Governor,Governor,Conservative,True,2,Republican runner-up,46.242171189979125,44.3,49.638924003301796,3.3967528133226708,5.338924003301798,Question 6; Question 7
+Nevada,NV,Governor,Governor,Liberal,True,2,Aaron Ford,53.757828810020875,51.5,50.361075996698204,-3.3967528133226708,-1.1389240033017956,Question 6; Question 7
+Ohio,OH,Governor,Governor,Conservative,True,1,Republican runner-up,45.91520165460185,44.4,65.33453095883445,19.419329304232598,20.93453095883445,Issue 3
+Ohio,OH,Governor,Governor,Liberal,True,1,Amy Acton,54.08479834539815,52.3,34.66546904116555,-19.419329304232598,-17.634530958834446,Issue 3
+Iowa,IA,Senate,Senate,Conservative,False,1,Republican runner-up,47.884416924664606,46.4,56.0,8.115583075335394,9.600000000000001,Amendment 1
+Kansas,KS,Senate,Senate,Conservative,False,1,Republican runner-up,47.52577319587629,46.1,63.67990031958606,16.15412712370977,17.57990031958606,Constitutional Amendment (Citizenship)
+North Carolina,NC,Senate,Senate,Conservative,False,3,Republican runner-up,39.9795501022495,39.1,60.666666666666664,20.68711656441717,21.566666666666663,Income tax cap amendment; Photo ID amendment; Property tax limits amendment
+Ohio,OH,Senate,Senate,Conservative,False,1,Republican runner-up,47.47899159663866,45.2,65.33453095883445,17.855539362195792,20.134530958834446,Issue 3
+Iowa,IA,Senate,Senate,Conservative,True,1,Republican runner-up,47.884416924664606,46.4,56.0,8.115583075335394,9.600000000000001,Amendment 1
+Iowa,IA,Senate,Senate,Liberal,True,1,Josh Turek,52.115583075335394,50.5,44.0,-8.115583075335394,-6.5,Amendment 1
+Kansas,KS,Senate,Senate,Conservative,True,1,Republican runner-up,47.52577319587629,46.1,63.67990031958606,16.15412712370977,17.57990031958606,Constitutional Amendment (Citizenship)
+Kansas,KS,Senate,Senate,Liberal,True,1,Adam Hamilton,52.47422680412371,50.9,36.32009968041394,-16.15412712370977,-14.57990031958606,Constitutional Amendment (Citizenship)
+North Carolina,NC,Senate,Senate,Conservative,True,3,Republican runner-up,39.9795501022495,39.1,60.666666666666664,20.68711656441717,21.566666666666663,Income tax cap amendment; Photo ID amendment; Property tax limits amendment
+North Carolina,NC,Senate,Senate,Liberal,True,3,Roy Cooper,60.0204498977505,58.7,39.333333333333336,-20.68711656441717,-19.36666666666667,Income tax cap amendment; Photo ID amendment; Property tax limits amendment
+Ohio,OH,Senate,Senate,Conservative,True,1,Republican runner-up,47.47899159663866,45.2,65.33453095883445,17.855539362195792,20.134530958834446,Issue 3
+Ohio,OH,Senate,Senate,Liberal,True,1,Sherrod Brown,52.52100840336134,50.0,34.66546904116555,-17.855539362195792,-15.33453095883445,Issue 3
+Alabama,AL,Either,Governor,Conservative,False,2,Tommy Tuberville,52.0,52.0,60.55349922458312,8.55349922458312,8.55349922458312,Amendment 3; Amendment 4
+Alaska,AK,Either,Governor,Conservative,False,2,Republican runner-up,37.17948717948718,29.0,58.8938728393898,21.714385659902618,29.8938728393898,Ballot Measure 2; Ballot Measure 3
+Arizona,AZ,Either,Governor,Conservative,False,2,Republican runner-up,43.438453713123096,42.7,43.43466658941887,-0.003787123704231732,0.7346665894188611,Prop 142; Prop 144
+California,CA,Either,Governor,Conservative,False,1,Republican runner-up,36.0,36.0,41.37483787289235,5.37483787289235,5.37483787289235,Prop 39
+California,CA,Either,Governor,Liberal,False,4,Xavier Becerra,64.0,64.0,56.9621719855415,-7.037828014458496,-7.037828014458496,Prop 1; Prop 3; Prop 37; Prop 4
+Iowa,IA,Either,Governor,Conservative,False,1,Republican runner-up,44.5,44.5,56.0,11.5,11.5,Amendment 1
+Kansas,KS,Either,Senate,Conservative,False,1,Republican runner-up,47.52577319587629,46.1,63.67990031958606,16.15412712370977,17.57990031958606,Constitutional Amendment (Citizenship)
+Nevada,NV,Either,Governor,Conservative,False,1,Republican runner-up,46.242171189979125,44.3,62.44416197191111,16.201990781931983,18.14416197191111,Question 7
+Nevada,NV,Either,Governor,Liberal,False,1,Aaron Ford,53.757828810020875,51.5,63.166313965307516,9.408485155286641,11.666313965307516,Question 6
+North Carolina,NC,Either,Senate,Conservative,False,3,Republican runner-up,39.9795501022495,39.1,60.666666666666664,20.68711656441717,21.566666666666663,Income tax cap amendment; Photo ID amendment; Property tax limits amendment
+Ohio,OH,Either,Governor,Conservative,False,1,Republican runner-up,45.91520165460185,44.4,65.33453095883445,19.419329304232598,20.93453095883445,Issue 3
+Alabama,AL,Either,Governor,Conservative,True,2,Tommy Tuberville,52.0,52.0,60.55349922458312,8.55349922458312,8.55349922458312,Amendment 3; Amendment 4
+Alabama,AL,Either,Governor,Liberal,True,2,Democratic runner-up,48.0,48.0,39.44650077541688,-8.55349922458312,-8.55349922458312,Amendment 3; Amendment 4
+Alaska,AK,Either,Governor,Conservative,True,2,Republican runner-up,37.17948717948718,29.0,58.8938728393898,21.714385659902618,29.8938728393898,Ballot Measure 2; Ballot Measure 3
+Alaska,AK,Either,Governor,Liberal,True,2,Kreiss-Tomkins,62.82051282051282,49.0,41.1061271606102,-21.714385659902618,-7.8938728393898,Ballot Measure 2; Ballot Measure 3
+Arizona,AZ,Either,Governor,Conservative,True,2,Republican runner-up,43.438453713123096,42.7,43.43466658941887,-0.003787123704231732,0.7346665894188611,Prop 142; Prop 144
+Arizona,AZ,Either,Governor,Liberal,True,2,Katie Hobbs,56.561546286876904,55.6,56.56533341058113,0.003787123704231732,0.9653334105811346,Prop 142; Prop 144
+California,CA,Either,Governor,Conservative,True,5,Republican runner-up,36.0,36.0,42.70522998614527,6.705229986145267,6.705229986145267,Prop 1; Prop 3; Prop 37; Prop 39; Prop 4
+California,CA,Either,Governor,Liberal,True,5,Xavier Becerra,64.0,64.0,57.29477001385474,-6.705229986145267,-6.705229986145267,Prop 1; Prop 3; Prop 37; Prop 39; Prop 4
+Iowa,IA,Either,Governor,Conservative,True,1,Republican runner-up,44.5,44.5,56.0,11.5,11.5,Amendment 1
+Iowa,IA,Either,Governor,Liberal,True,1,Rob Sand,55.5,55.5,44.0,-11.5,-11.5,Amendment 1
+Kansas,KS,Either,Senate,Conservative,True,1,Republican runner-up,47.52577319587629,46.1,63.67990031958606,16.15412712370977,17.57990031958606,Constitutional Amendment (Citizenship)
+Kansas,KS,Either,Senate,Liberal,True,1,Adam Hamilton,52.47422680412371,50.9,36.32009968041394,-16.15412712370977,-14.57990031958606,Constitutional Amendment (Citizenship)
+Nevada,NV,Either,Governor,Conservative,True,2,Republican runner-up,46.242171189979125,44.3,49.638924003301796,3.3967528133226708,5.338924003301798,Question 6; Question 7
+Nevada,NV,Either,Governor,Liberal,True,2,Aaron Ford,53.757828810020875,51.5,50.361075996698204,-3.3967528133226708,-1.1389240033017956,Question 6; Question 7
+North Carolina,NC,Either,Senate,Conservative,True,3,Republican runner-up,39.9795501022495,39.1,60.666666666666664,20.68711656441717,21.566666666666663,Income tax cap amendment; Photo ID amendment; Property tax limits amendment
+North Carolina,NC,Either,Senate,Liberal,True,3,Roy Cooper,60.0204498977505,58.7,39.333333333333336,-20.68711656441717,-19.36666666666667,Income tax cap amendment; Photo ID amendment; Property tax limits amendment
+Ohio,OH,Either,Governor,Conservative,True,1,Republican runner-up,45.91520165460185,44.4,65.33453095883445,19.419329304232598,20.93453095883445,Issue 3
+Ohio,OH,Either,Governor,Liberal,True,1,Amy Acton,54.08479834539815,52.3,34.66546904116555,-19.419329304232598,-17.634530958834446,Issue 3

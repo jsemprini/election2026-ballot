@@ -1,0 +1,18 @@
+state,abbr,office,race_label,winner,winner_party,runner_up_party,winner_pct,runner_up_pct,margin_pts,dem_raw,rep_raw,dem_2p,rep_2p,result_note,source,data_flags
+Alabama,AL,Governor,Governor,Tommy Tuberville,R,D,52.0,48.0,4.0,48.0,52.0,48.0,52.0,R hold,RCP,runner-up assumed to be the other major party
+Alaska,AK,Governor,Governor (RCV),Kreiss-Tomkins,D,R,49.0,29.0,,49.0,29.0,62.82051282051282,37.17948717948718,D flip projected,RCP,partial count / race not final; RCV first-round shares; approximate %; runner-up assumed to be the other major party
+Arizona,AZ,Governor,Governor,Katie Hobbs,D,R,55.6,42.7,13.0,55.6,42.7,56.561546286876904,43.438453713123096,D hold,RCP,runner-up assumed to be the other major party
+California,CA,Governor,Governor,Xavier Becerra,D,R,64.0,36.0,28.0,64.0,36.0,64.0,36.0,D hold,CA / RCP,runner-up assumed to be the other major party
+Georgia,GA,Governor,Governor,Keisha Lance Bottoms,D,R,54.3,45.7,8.6,54.3,45.7,54.3,45.7,D flip,RCP / Guardian,runner-up assumed to be the other major party
+Georgia,GA,Senate,U.S. Senate,Jon Ossoff,D,R,59.0,41.0,18.0,59.0,41.0,59.0,41.0,D hold,Guardian,runner-up assumed to be the other major party
+Iowa,IA,Governor,Governor,Rob Sand,D,R,55.5,44.5,11.0,55.5,44.5,55.5,44.5,D flip,RCP,runner-up assumed to be the other major party
+Iowa,IA,Senate,U.S. Senate,Josh Turek,D,R,50.5,46.4,4.0,50.5,46.4,52.115583075335394,47.884416924664606,D flip,Reports,runner-up assumed to be the other major party
+Kansas,KS,Senate,U.S. Senate,Adam Hamilton,D,R,50.9,46.1,5.0,50.9,46.1,52.47422680412371,47.52577319587629,D flip (historic),World Data,runner-up assumed to be the other major party
+Maine,ME,Senate,U.S. Senate,Troy Jackson,D,R,53.8,46.1,7.7,53.8,46.1,53.85385385385385,46.14614614614615,D flip,Guardian,runner-up assumed to be the other major party
+Nevada,NV,Governor,Governor,Aaron Ford,D,R,51.5,44.3,7.0,51.5,44.3,53.757828810020875,46.242171189979125,D flip,RCP,runner-up assumed to be the other major party
+North Carolina,NC,Senate,U.S. Senate,Roy Cooper,D,R,58.7,39.1,19.6,58.7,39.1,60.0204498977505,39.9795501022495,D flip,Guardian,runner-up assumed to be the other major party
+Ohio,OH,Governor,Governor,Amy Acton,D,R,52.3,44.4,8.0,52.3,44.4,54.08479834539815,45.91520165460185,D flip,RCP,runner-up assumed to be the other major party
+Ohio,OH,Senate,U.S. Senate (special),Sherrod Brown,D,R,50.0,45.2,4.8,50.0,45.2,52.52100840336134,47.47899159663866,D flip,Guardian,approximate %; runner-up assumed to be the other major party
+South Carolina,SC,Senate,U.S. Senate,Annie Andrews,D,R,,,4.4,,,52.2,47.8,D flip (historic),Guardian,two-party share imputed from margin; raw shares unavailable; runner-up assumed to be the other major party
+Texas,TX,Governor,Governor,Gina Hinojosa,D,R,52.8,45.7,7.0,52.8,45.7,53.60406091370558,46.39593908629442,D flip,RCP,runner-up assumed to be the other major party
+Texas,TX,Senate,U.S. Senate,James Talarico,D,R,55.2,42.9,12.0,55.2,42.9,56.2691131498471,43.7308868501529,D flip (historic),Guardian,runner-up assumed to be the other major party
